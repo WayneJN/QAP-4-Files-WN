@@ -1,0 +1,105 @@
+<!-- Software Development - SD12
+QAP 4 - Project 3 - JavaScript
+Date : July 26this, 2024
+Submitted by : Wayne Norman -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motel Customer Info</title>
+</head>
+
+<body>
+<h1>Motel Customer Form</h1>
+
+<!-- Create a simple form for the client to enter information. Have a submit button at the bottom -->
+
+<form id="customerForm">
+    <h3>Customer Information</h3>
+    <!-- User to type in first name and last name -->
+  <label for="firstName">First Name:</label>
+  <input type="text" id="firstName" name="firstName"><br/>
+  <label for="lastName">Last Name:</label>
+  <input type="text" id="lastName" name="lastName"><br/>
+ 
+  
+  <!-- Select Birthdate -->
+  <label for="birthDate">Birth Date:</label>
+  <input type="date" id="birthDate" name="birthDate"><br/>
+
+  <!-- Give the user a chance to select preferred gender label -->
+  <label for="gender">Gender:</label>
+  <select id="gender" name="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Other">Other</option>
+    <option value="Prefer not to disclose">Prefer not to disclose</option>
+  </select><br/>
+
+  <label for="phoneNumber">Phone Number:</label>
+  <input type="text" id="phoneNumber" name="phoneNumber"><br>
+  
+
+
+
+    <h3>Mailing Address</h3>
+  <!-- User may type in their address, such as city, province, postal code, etc   -->
+  <label for="mailingAddressStreet">Street:</label>
+  <input type="text" id="mailingAddressStreet" name="mailingAddressStreet"><br>
+  <label for="mailingAddressCity">City:</label>
+  <input type="text" id="mailingAddressCity" name="mailingAddressCity"><br>
+  <label for="mailingAddressPostalCode">Postal Code:</label>
+  <input type="text" id="mailingAddressPostalCode" name="mailingAddressPostalCode"><br>
+  <label for="mailingAddressProvince">Province:</label>
+  <input type="text" id="mailingAddressProvince" name="mailingAddressProvince"><br>
+  <label for="mailingAddressCountry">Country:</label>
+  <input type="text" id="mailingAddressCountry" name="mailingAddressCountry"><br>
+
+  
+<!-- Allow user to select specific room preferences, such as smoking, not smoking, early check in, etc -->
+<h3><label for="roomPreferences">Room Preferences</label><br></h3>
+<input type="checkbox" id="earlyCheckIn" name="roomPreferences" value="Early Check-In">
+<label for="earlyCheckIn">Early Check-In</label><br>
+<input type="checkbox" id="lateCheckOut" name="roomPreferences" value="Late Check-Out">
+<label for="lateCheckOut">Late Check-Out</label><br>
+<input type="checkbox" id="smoking" name="roomPreferences" value="Smoking">
+<label for="smoking">Smoking</label><br>
+<input type="checkbox" id="nonSmoking" name="roomPreferences" value="Non-Smoking">
+<label for="nonSmoking">Non-Smoking</label><br>
+<input type="checkbox" id="standard" name="roomPreferences" value="Standard">
+<label for="standard">Standard Room</label><br>
+<input type="checkbox" id="executive" name="roomPreferences" value="Executive">
+<label for="executive">Executive Room</label><br>
+
+
+  <h3>Trip Duration</h3>
+  <label for="checkInDate">Check-In Date:</label><br>
+  <input type="date" id="checkInDate" name="checkInDate"><br>
+  <label for="checkInDate">Check-Out Date:</label><br>
+  <input type="date" id="checkOutDate" name="checkOutDate"><br>
+
+<h3>Payment</h3>
+
+<!-- Allow the use to select type of payment. Such as cash, credit, or debit -->
+<label for="paymentMethod">Payment Method:</label>
+<select id="paymentMethod" name="paymentMethod">
+  <option value="Cash">Cash</option>
+  <option value="Credit">Credit</option>
+  <option value="Debit">Debit</option>
+</select><br>
+<br/>
+
+<br/>
+
+  <!-- Add a submit button to the bottom -->
+  <input type="submit" value="Submit">
+</form>
+
+<script src ="testing.js"></script>
+
+</body>
+</html>
