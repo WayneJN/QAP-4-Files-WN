@@ -1,0 +1,10 @@
+{
+    "next_policy_number": 1944,
+    "basic_premium": 869.00,
+    "discount_for_additional_cars": 0.25,
+    "cost_of_extra_liability_coverage": 130.00,
+    "cost_of_glass_coverage": 86.00,
+    "cost_for_loaner_car_coverage": 58.00,
+    "HST_rate": 0.15,
+    "processing_fee_for_monthly_payments": 39.99
+}
