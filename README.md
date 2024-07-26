@@ -2,6 +2,8 @@
 
 Project 1 – Python – Functions, Lists, and Data Files 
   Files of interest : 
+    1. QAP 4 - Project 1 - Python - Functions, Lists, and Data Files.py
+    2. Const.dat.txt
 
 
       The const.dat file will be utilized within the program to obtain policy numbers, relevant constants, and used for calculations. 
@@ -15,6 +17,8 @@ Project 2 - Github
 
 Project 3 – JavaScript
   Files of interest : 
+    1. QAP 4 - Project 3 - HTML.html
+    2. QAP 4 - Project 3 .js
 
 
 
@@ -25,4 +29,11 @@ Project 3 – JavaScript
     The HTML document generates a simple Motel form for the user to enter in all of their respective data gto be utilized within the motel customer object. 
 
 Project 4 – Entity / Relationship Diagram
-  Files of Interest
+  Files of Interest : 
+    1. QAP 4 - Project 4 - ERD - Original.docx
+    2. QAP 4 - Project 4 - ERD - Lines.jpg
+    3. QAP 4 - Project 4 - ERD Extra Fields.docx
+
+    ERD - Original contains the ERD file for the Sleep-Tite Motal. 
+    Due to difficulty with some programs, images, shapes and lines wer not able to be added properly. Instead a screen shot image with paint was used to manually add lines to the chart to signify the relationships between sections. This can be found in ERD - Lines.jpg. 
+    Finally Extra fields of interest that could be added to the ERD.  A brief reason why each field would be useful to the system is discussed. 
